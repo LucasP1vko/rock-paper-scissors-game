@@ -16,6 +16,10 @@ function displayUserChoice(userChoice) {
         const winner = checkWhoWin(userChoice, computerChoice);
         let resultUser = '';
         let resultComputer = '';
+        document.getElementById("btn_choice").disabled = true;
+    setTimeout(function() {
+        document.getElementById("btn_choice").disabled = false;
+    }, 5000);
         console.log(userChoice);
         console.log(computerChoice);
         console.log(winner);
