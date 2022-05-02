@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@600&family=Montez&family=Permanent+Marker&family=Share+Tech+Mono&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url('../images/the-nou-camp-1225210.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.game_container {
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 80%;
+    max-width: 800px;
+    height: 70%;
+    align-items: top;
+    vertical-align: centre;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title_bar {
+    width: 100%;
+    height:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family:permanent marker;
+
+}
+
+.score_board {
+    width: 100%;
+    height:8%;
+    padding: 1% 0;
+    background-color: rgba(184, 135, 11, 0.527);
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    font-size: 1.2rem;
+}
+
+.user_name {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-around;
+}
+
+.cpu_name {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+}
+
+.score {
+    width: 15%;
+    background-color: rgb(68, 204, 41);
+    display: flex;
+    justify-content:space-around;
+}
+
+.winner_result {
+    width: 100%;
+    height:5%;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.game_field {
+    width: 100%;
+    height:60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    font-size: 1rem;
+}
+
+.player_choice_image {
+    height:100%;
+    width: 20%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.versus_column {
+    height:100%;
+    width: 5%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family:permanent marker;
+}
+
+.cpu_choice_image {
+    height:100%;
+    width: 20%;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.option_buttons {
+    width: 100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 1rem;
+}
+
+.option_buttons button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transition: .3s;
+
+
+}
+
+.option_buttons button:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+  }
+
+.btn_rock {
+    background-image: url('../images/rps/rock.png');
+    background-size: contain;
+
+}
+
+.btn_paper {
+    background-image: url('../images/rps/paper.png');
+    background-size: contain;
+
+}
+
+.btn_scissors {
+    background-image: url('../images/rps/scissors.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
