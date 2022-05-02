@@ -9,6 +9,12 @@
     <title>Rock Paper Scissors Game.</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script defer src="assets/js/game.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <body>
@@ -34,19 +40,27 @@
         <div class="winner_result">The winner is:<span id="winner">name/cpu</span>!</div>
         
         <div class="game_field">
-            <div class="player_choice_image" id="user_image">user pick</div>
+            <div class="player_choice_image" id="user_image">
+                <button class="btn_user" id="btn_play1"></button>
+            </div>
             <div class="versus_column">vs</div>
-            <div class="cpu_choice_image" id="cpu_image">cpu pick</div>
+            <div class="cpu_choice_image" id="cpu_image">
+                <button class="btn_cpu" id="btn_play2"></button>
+            </div>
         </div>
         
         <div class="option_buttons">
-            <button class="btn_rock"></button>
-            <button class="btn_paper"></button>
-            <button class="btn_scissors"></button>
+            <button class="btn_rock btn_choice"></button>
+            <button class="btn_paper btn_choice"></button>
+            <button class="btn_scissors btn_choice"></button>
         </div>
         
         <div class="social_footer">
-            
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-twitch"></a>
+
         </div>
     
     </div>
