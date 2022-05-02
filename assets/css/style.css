@@ -47,8 +47,6 @@ body {
     font-size: 1.5rem;
     font-family:permanent marker;
     transform: scale(1, 4);
-
-
 }
 
 .score_board {
@@ -277,6 +275,13 @@ body {
     .versus_column {
 
         font-size: 5rem;
+    }
+
+    .title_bar {
+        transform: scale(1.1, 4);
+        letter-spacing: 10px; 
+    
+    
     }
 
 }
