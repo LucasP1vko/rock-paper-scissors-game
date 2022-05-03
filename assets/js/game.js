@@ -1,25 +1,55 @@
-let scoreUser = document.getElementById("user_score");
-let scoreCpu = document.getElementById("cpu_score");
-let userCorner = document.getElementById("btn_play1");
-let cpuCorner = document.getElementById("btn_play2");
 
-function runGame() {
+        let userCorner = document.getElementById("btn_play1");
+        let cpuCorner = document.getElementById("btn_play2");
+
+// game initializing function after restart game
+        function runGame() {
+            document.getElementById("winner").innerText = 'Welcome back!';
+            let scoreUser = parseInt(document.getElementById("user_score").innerText);
+            document.getElementById("user_score").innerText = 0;
+            let scoreCpu = parseInt(document.getElementById("cpu_score").innerText);
+            document.getElementById("cpu_score").innerText = 0;  
+            
+            document.querySelector(".display_none").className = 'option_buttons';
+            document.getElementById("restart_game").className = 'display_none';
+
 
 }
 
-function displayUserChoice(userChoice) {
+        function displayUserChoice(userChoice) {
     
+// displaying user choice image
+        
+        if (userChoice === 'rock') {
+            userCorner.className = 'btn_rock';
+            setTimeout(function() {
+                userCorner.className = 'btn_user';
+                }, 3000);
+        } else if (userChoice === 'paper') {
+            userCorner.className = 'btn_paper'
+            setTimeout(function() {
+                userCorner.className = 'btn_user';
+                }, 3000);
+        } else if (userChoice === 'scissors') {
+            userCorner.className = 'btn_scissors'
+            setTimeout(function() {
+                userCorner.className = 'btn_user';
+                }, 3000);
+        }
 
-        // declare array 
+// generate computer choice
+
+// declare array of choices
+
         const playChoices = ['rock', 'paper', 'scissors'];
     
-        // create random number to choose computerChoice
+// create random number to choose computerChoice from the array of choices
+
         const randomNumber = Math.random() * playChoices.length;
         const roundedNumber = Math.floor(randomNumber);
         const computerChoice = playChoices[roundedNumber];
         const winner = checkWhoWin(userChoice, computerChoice);
-        let resultUser = '';
-        let resultComputer = '';
+
 
 
 
@@ -28,43 +58,80 @@ function displayUserChoice(userChoice) {
         console.log(winner);
 
 
-                    // creating delay between rounds
-                    document.getElementById("btn_choice").disabled = true;
-                    setTimeout(function() {
-                        document.getElementById("btn_choice").disabled = false;
-                         }, 5000);
-
-
-        // displaying user choice image
-        
-        if (userChoice === 'rock') {
-            userCorner.className = 'btn_rock'
-        } else if (userChoice === 'paper') {
-            userCorner.className = 'btn_paper'
-        } else if (userChoice === 'scissors') {
-            userCorner.className = 'btn_scissors'
-        }
-
-        // displaying cpu choice image
+// displaying cpu choice image
 
         if (computerChoice === 'rock') {
             cpuCorner.className = 'btn_rock'
+            setTimeout(function() {
+                cpuCorner.className = 'btn_cpu';
+                }, 3000);
         } else if (computerChoice === 'paper') {
             cpuCorner.className = 'btn_paper'
+            setTimeout(function() {
+                cpuCorner.className = 'btn_cpu';
+                }, 3000);
         } else if (computerChoice === 'scissors') {
             cpuCorner.className = 'btn_scissors'
+            setTimeout(function() {
+                cpuCorner.className = 'btn_cpu';
+                }, 3000);
+        };
+
+// increase score after round 
+
+        if (winner === 'win') {
+            document.getElementById("winner").innerText = 'The winner is: Player. Congratulations!';
+            let scoreUser = parseInt(document.getElementById("user_score").innerText);
+            document.getElementById("user_score").innerText = ++scoreUser;
+        } else if (winner === 'lost') {
+            document.getElementById("winner").innerText = 'The winner is: Computer. Try again!';
+            let scoreCpu = parseInt(document.getElementById("cpu_score").innerText);
+            document.getElementById("cpu_score").innerText = ++scoreCpu;    
+        }
+        else if (winner === 'draw') {
+            document.getElementById("winner").innerText = 'The winner is: Nobody. Draw!';
+            let scoreUser = parseInt(document.getElementById("user_score").innerText);
+            document.getElementById("user_score").innerText = scoreUser;
+            let scoreCpu = parseInt(document.getElementById("cpu_score").innerText);
+            document.getElementById("cpu_score").innerText = scoreCpu;
+
+        };
+
+
+// compare score and announce winner plus enable restart game button and disable game controls
+            let scoreP1 = parseInt(document.getElementById("user_score").innerText);
+            let scoreComp = parseInt(document.getElementById("cpu_score").innerText);
+
+        if (scoreP1 > 1) {
+
+            document.querySelector(".option_buttons").className = 'display_none';
+            document.getElementById("restart_game").className = 'restart_game';
+
+            document.getElementById("winner").innerText = 'GAME WON. WELL DONE!';
+
+        } else if (scoreComp > 1) {
+
+            document.querySelector(".option_buttons").className = 'display_none';
+            document.getElementById("restart_game").className = 'restart_game';
+
+            document.getElementById("winner").innerText = 'GAME LOST. BETTER LUCK NEXT TIME!';
         }
 
-        changeScore()
+
+// creating delay between rounds
+
+            document.querySelector(".option_buttons").style.pointerEvents = 'none';
+            setTimeout(function() {
+            document.querySelector(".option_buttons").style.pointerEvents = 'unset';
+            }, 3000);
 
 }
 
-
-
-function displayCpuChoice() {
-
+        function displayCpuChoice() {
 
 }
+
+// comparing choices and returning if player won or lost
 
 function checkWhoWin(user, computer) {
 
@@ -89,6 +156,10 @@ function checkWhoWin(user, computer) {
 }
 
 function changeScore() {
+    
+
+
+    
 
 }
 
