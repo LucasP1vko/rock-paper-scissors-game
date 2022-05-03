@@ -13,17 +13,17 @@ function displayUserChoice(userChoice) {
             userCorner.className = 'btn_rock';
             setTimeout(function() {
                 userCorner.className = 'btn_user';
-                }, 3000);
+                }, 2000);
         } else if (userChoice === 'paper') {
             userCorner.className = 'btn_paper'
             setTimeout(function() {
                 userCorner.className = 'btn_user';
-                }, 3000);
+                }, 2000);
         } else if (userChoice === 'scissors') {
             userCorner.className = 'btn_scissors'
             setTimeout(function() {
                 userCorner.className = 'btn_user';
-                }, 3000);
+                }, 2000);
         }
 
 // generate computer choice
@@ -53,17 +53,17 @@ function displayUserChoice(userChoice) {
             cpuCorner.className = 'btn_rock'
             setTimeout(function() {
                 cpuCorner.className = 'btn_cpu';
-                }, 3000);
+                }, 2000);
         } else if (computerChoice === 'paper') {
             cpuCorner.className = 'btn_paper'
             setTimeout(function() {
                 cpuCorner.className = 'btn_cpu';
-                }, 3000);
+                }, 2000);
         } else if (computerChoice === 'scissors') {
             cpuCorner.className = 'btn_scissors'
             setTimeout(function() {
                 cpuCorner.className = 'btn_cpu';
-                }, 3000);
+                }, 2000);
         };
 
 // comparing choices and returning if player won or lost
@@ -90,7 +90,7 @@ function checkWhoWin(user, computer) {
 
 }
 
-// increase score after each round 
+// increase score after each round and announce result of current round
 
         if (winner === 'win') {
             document.getElementById("winner").innerHTML = '<div>The winner is: <b>Player</b>. Congratulations!</div>';
@@ -120,7 +120,7 @@ function checkWhoWin(user, computer) {
             setTimeout(function() {
             document.querySelector(".option_buttons").className = 'display_none';
             document.getElementById("restart_game").className = 'restart_game';
-            }, 3001);
+            }, 2001);
 
             document.getElementById("winner").innerText = 'GAME WON. WELL DONE!';
 
@@ -128,11 +128,11 @@ function checkWhoWin(user, computer) {
 
             setTimeout(function() {
             document.querySelector(".option_buttons").className = 'display_none';
-            }, 3001);
+            }, 2001);
 
             setTimeout(function() {
             document.getElementById("restart_game").className = 'restart_game';
-            }, 3001);
+            }, 2001);
 
 
             document.getElementById("winner").innerText = 'GAME LOST. BETTER LUCK NEXT TIME!';
@@ -143,7 +143,7 @@ function checkWhoWin(user, computer) {
             document.querySelector(".option_buttons").style.pointerEvents = 'none';
             setTimeout(function() {
             document.querySelector(".option_buttons").style.pointerEvents = 'unset';
-            }, 3000);
+            }, 2000);
 
 
 }
@@ -153,7 +153,7 @@ function checkWhoWin(user, computer) {
             document.getElementById("winner").innerText = 'Welcome back!';
             setTimeout(function() {
                 document.getElementById("winner").innerHTML = '<div>Press rock, paper or scissors to start.</div><div>Get 2 points to win the game.</div>';
-                }, 3000);
+                }, 1500);
             let scoreUser = parseInt(document.getElementById("user_score").innerText);
             document.getElementById("user_score").innerText = 0;
             let scoreCpu = parseInt(document.getElementById("cpu_score").innerText);
