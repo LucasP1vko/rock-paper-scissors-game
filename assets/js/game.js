@@ -15,12 +15,12 @@ function displayUserChoice(userChoice) {
                 userCorner.className = 'btn_user';
                 }, 2000);
         } else if (userChoice === 'paper') {
-            userCorner.className = 'btn_paper'
+            userCorner.className = 'btn_paper';
             setTimeout(function() {
                 userCorner.className = 'btn_user';
                 }, 2000);
         } else if (userChoice === 'scissors') {
-            userCorner.className = 'btn_scissors'
+            userCorner.className = 'btn_scissors';
             setTimeout(function() {
                 userCorner.className = 'btn_user';
                 }, 2000);
@@ -50,21 +50,21 @@ function displayUserChoice(userChoice) {
 // displaying cpu choice image
 
         if (computerChoice === 'rock') {
-            cpuCorner.className = 'btn_rock'
+            cpuCorner.className = 'btn_rock';
             setTimeout(function() {
                 cpuCorner.className = 'btn_cpu';
                 }, 2000);
         } else if (computerChoice === 'paper') {
-            cpuCorner.className = 'btn_paper'
+            cpuCorner.className = 'btn_paper';
             setTimeout(function() {
                 cpuCorner.className = 'btn_cpu';
                 }, 2000);
         } else if (computerChoice === 'scissors') {
-            cpuCorner.className = 'btn_scissors'
+            cpuCorner.className = 'btn_scissors';
             setTimeout(function() {
                 cpuCorner.className = 'btn_cpu';
                 }, 2000);
-        };
+        }
 
 // comparing choices and returning if player won or lost
 
@@ -108,7 +108,7 @@ function checkWhoWin(user, computer) {
             let scoreCpu = parseInt(document.getElementById("cpu_score").innerText);
             document.getElementById("cpu_score").innerText = scoreCpu;
 
-        };
+        }
 
 
 // compare score and announce winner plus enable restart game button and disable game controls
