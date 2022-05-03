@@ -23,14 +23,12 @@ body {
     background: rgba( 255, 255, 255, 0.7 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 10px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 80%;
     max-width: 800px;
     height: 70%;
-    align-items: top;
-    vertical-align: centre;
+    align-items: centre;
     padding: 1%;
     display: flex;
     flex-direction: column;
@@ -45,7 +43,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-    font-family:permanent marker;
+    font-family:"permanent marker";
     transform: scale(1, 4);
 }
 
@@ -91,7 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 0.7em;
-    font-family: Share Tech Mono;
+    font-family: "Share Tech Mono";
     color: #7a0047;
     transform: scale(1, 3);
 
@@ -140,7 +138,7 @@ body {
     justify-content:space-around;
     align-items: center;
     font-size: 1.5rem;
-    font-family:permanent marker;
+    font-family:"permanent marker";
 }
 
 .cpu_choice_image {
@@ -309,7 +307,7 @@ body {
     .winner_result {
         margin-top: 50px;
         font-size: 1.5em;
-        font-family: Share Tech Mono;
+        font-family: "Share Tech Mono";
         color: #7a0047;
         transform: scale(1.2, 1);
     
