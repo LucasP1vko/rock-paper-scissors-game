@@ -1,5 +1,5 @@
 ![Banner with unit image and
-logo](https://github.com/LucasP1vko/MVHUB/blob/a695bb8bd10283ac325bba0c3f628a7f2e5adf89/assets/readme_files/banner.gif)
+logo](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/aaa7f1b1defd40a77eec39cb04b0a876be8fedb0/assets/images/readmeFiles/logoForReadme.gif)
 
 
 <br />
