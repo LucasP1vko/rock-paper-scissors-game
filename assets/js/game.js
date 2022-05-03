@@ -5,6 +5,9 @@
 // game initializing function after restart game
         function runGame() {
             document.getElementById("winner").innerText = 'Welcome back!';
+            setTimeout(function() {
+                document.getElementById("winner").innerText = 'Press one of the buttons to start.';
+                }, 3000);
             let scoreUser = parseInt(document.getElementById("user_score").innerText);
             document.getElementById("user_score").innerText = 0;
             let scoreCpu = parseInt(document.getElementById("cpu_score").innerText);
@@ -80,16 +83,16 @@
 // increase score after round 
 
         if (winner === 'win') {
-            document.getElementById("winner").innerText = 'The winner is: Player. Congratulations!';
+            document.getElementById("winner").innerHTML = 'The winner is: <b>Player</b>. Congratulations!';
             let scoreUser = parseInt(document.getElementById("user_score").innerText);
             document.getElementById("user_score").innerText = ++scoreUser;
         } else if (winner === 'lost') {
-            document.getElementById("winner").innerText = 'The winner is: Computer. Try again!';
+            document.getElementById("winner").innerHTML = 'The winner is: <b>Computer</b>. Try again!';
             let scoreCpu = parseInt(document.getElementById("cpu_score").innerText);
             document.getElementById("cpu_score").innerText = ++scoreCpu;    
         }
         else if (winner === 'draw') {
-            document.getElementById("winner").innerText = 'The winner is: Nobody. Draw!';
+            document.getElementById("winner").innerHTML = 'The winner is: <b>Nobody</b>. Draw!';
             let scoreUser = parseInt(document.getElementById("user_score").innerText);
             document.getElementById("user_score").innerText = scoreUser;
             let scoreCpu = parseInt(document.getElementById("cpu_score").innerText);
