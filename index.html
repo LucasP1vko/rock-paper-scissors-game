@@ -41,18 +41,18 @@
         
         <div class="game_field">
             <div class="player_choice_image" id="user_image">
-                <button class="btn_user" id="btn_play1"></button>
+                <button class="btn_user" id="btn_play1" aria-label="player choice display"></button>
             </div>
             <div class="versus_column">vs</div>
             <div class="cpu_choice_image" id="cpu_image">
-                <button class="btn_cpu" id="btn_play2"></button>
+                <button class="btn_cpu" id="btn_play2" aria-label="computer choice display"></button>
             </div>
         </div>
         
         <div class="option_buttons">
-            <button class="btn_rock btn_choice"  onclick="displayUserChoice('rock')"></button>
-            <button class="btn_paper btn_choice"  onclick="displayUserChoice('paper')"></button>
-            <button class="btn_scissors btn_choice"  onclick="displayUserChoice('scissors')"></button>
+            <button class="btn_rock btn_choice"  onclick="displayUserChoice('rock')" aria-label="user choice input rock"></button>
+            <button class="btn_paper btn_choice"  onclick="displayUserChoice('paper')" aria-label="user choice input paper"></button>
+            <button class="btn_scissors btn_choice"  onclick="displayUserChoice('scissors')" aria-label="user choice input scissors"></button>
         </div>
 
         <div class="display_none" id="restart_game">
