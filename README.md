@@ -3,22 +3,26 @@ logo](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/aaa7f1b1defd40
 
 
 <br />
-<h1 align="center">MV-HUB</h1>
+<h1 align="center">ROCK PAPER SCISSORS</h1>
 
 
 <div align="center">
-  <strong>Roland MV-8800 Production Studio knowledge centre.</strong>
+  <strong>PLAYER VS COMPUTER</strong>
 </div>
 <div align="center">
-  Educational website about analog music production device.
+CLASSIC GAME THAT ENTERTAIN EVERYONE
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Type-Educational-blue" alt="type: educational" />
-  <img src="https://img.shields.io/badge/About-Music-blue" alt="about: music" />
-  <img src="https://img.shields.io/badge/Languages-HTML%20%26%20CSS-success" alt="languages used: HTML and CSS" />
+  <img src="https://img.shields.io/badge/Type-Educational-blue" alt="type: entertainment" />
+  <img src="https://img.shields.io/badge/About-Music-blue" alt="about: game" />
+  <img src="https://img.shields.io/badge/Languages-" alt="languages used: HTML and CSS" />
+  <img src="https://img.shields.io/badge/-HTML%20%26%20CSS-success" alt="languages used: HTML" />
+  <img src="https://img.shields.io/badge/Languages-HTML%20%26%20CSS-success" alt="languages used: CSS" />
+  <img src="https://img.shields.io/badge/Languages-HTML%20%26%20CSS-success" alt="languages used: JAVASCRIPT" />
+
   <img src="https://img.shields.io/badge/Editor-Gitpod-blueviolet" alt="editor: gitpod" />
   <img src="https://img.shields.io/badge/Deployment-Github-important" alt="deployment: github" />
 
@@ -26,21 +30,22 @@ logo](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/aaa7f1b1defd40
 </div>
 
 <div align="center">
-  <p>
-    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasp1vko.github.io%2FMVHUB%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-      <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
-        alt="Valid CSS!" />
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
     </a>
-  </p>
+</p>
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://lucasp1vko.github.io/MVHUB/">
+    <a href="https://lucasp1vko.github.io/rock-paper-scissors-game/">
       🌍Live Website
     </a>
     <span> | </span>
-    <a href="https://github.com/LucasP1vko/MVHUB">
+    <a href="https://github.com/LucasP1vko/rock-paper-scissors-game">
       💾Github Repository
     </a>
     <span> | </span>
@@ -94,7 +99,7 @@ place is what they are looking for.
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to
 indicate the successful deployment.
 
-__The live link can be found here:__ <a href="https://lucasp1vko.github.io/MVHUB/">
+__The live link can be found here:__ <a href="https://lucasp1vko.github.io/rock-paper-scissors-game/">
       🌍Live Website
     </a>
 
@@ -105,7 +110,7 @@ __The live link can be found here:__ <a href="https://lucasp1vko.github.io/MVHUB
 
 > # Responsiveness
 ## Fully responsive design allows users to access MV-HUB from any device: desktop, tablet or mobile phone.
-![Responsive Mockup](https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/mockup_3.png)
+![Responsive Mockup](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/mockupanimated.gif)
 
 - [Back to the top ☝](#menu)
 
