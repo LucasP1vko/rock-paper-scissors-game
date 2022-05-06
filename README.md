@@ -18,10 +18,9 @@ CLASSIC GAME THAT ENTERTAIN EVERYONE
 <div align="center">
   <img src="https://img.shields.io/badge/Type-Educational-blue" alt="type: entertainment" />
   <img src="https://img.shields.io/badge/About-Music-blue" alt="about: game" />
-  <img src="https://img.shields.io/badge/Languages-" alt="languages used: HTML and CSS" />
-  <img src="https://img.shields.io/badge/-HTML%20%26%20CSS-success" alt="languages used: HTML" />
-  <img src="https://img.shields.io/badge/Languages-HTML%20%26%20CSS-success" alt="languages used: CSS" />
-  <img src="https://img.shields.io/badge/Languages-HTML%20%26%20CSS-success" alt="languages used: JAVASCRIPT" />
+  <img src="https://img.shields.io/badge/Languages-HTML-success" alt="languages used: html" />
+  <img src="https://img.shields.io/badge/-CSS-success" alt="languages used: css" />
+  <img src="https://img.shields.io/badge/-JAVASCRIPT-success" alt="languages used: JS" />
 
   <img src="https://img.shields.io/badge/Editor-Gitpod-blueviolet" alt="editor: gitpod" />
   <img src="https://img.shields.io/badge/Deployment-Github-important" alt="deployment: github" />
