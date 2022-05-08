@@ -3,7 +3,7 @@ logo](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/aaa7f1b1defd40
 
 
 <br />
-<h1 align="center">ROCK PAPER SCISSORS</h1>
+<h1 align="center">RPS: ROCK PAPER SCISSORS GAME</h1>
 
 
 <div align="center">
@@ -16,21 +16,22 @@ CLASSIC GAME THAT ENTERTAIN EVERYONE
 <br />
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Type-Educational-blue" alt="type: entertainment" />
-  <img src="https://img.shields.io/badge/About-Music-blue" alt="about: game" />
+  <img src="https://img.shields.io/badge/Type-Game-blue" alt="type: game" />
+  <img src="https://img.shields.io/badge/Players-One-blue" alt="type: players number: 1" />
+  <img src="https://img.shields.io/badge/Purpose-Entertainment-blue" alt="about: entertainment" />
   <img src="https://img.shields.io/badge/Languages-HTML-success" alt="languages used: html" />
   <img src="https://img.shields.io/badge/-CSS-success" alt="languages used: css" />
   <img src="https://img.shields.io/badge/-JAVASCRIPT-success" alt="languages used: JS" />
 
   <img src="https://img.shields.io/badge/Editor-Gitpod-blueviolet" alt="editor: gitpod" />
-  <img src="https://img.shields.io/badge/Deployment-Github-important" alt="deployment: github" />
+  <img src="https://img.shields.io/badge/Deployment-Github pages-important" alt="deployment: github" />
 
 
 </div>
 
 <div align="center">
 <p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasp1vko.github.io%2Frock-paper-scissors-game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
         <img style="border:0;width:88px;height:31px"
             src="https://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
@@ -81,11 +82,11 @@ CLASSIC GAME THAT ENTERTAIN EVERYONE
   * [Media](#media)
 
 > # About
-MV-HUB is a place where users can find anything they need to use Mv-8800 Production Studio.
-Knowledge about how to use an instrument is the same or even more valuable than device or instrument itself therefore
-from perspective of user this kind of content is essential for either new and expirienced users.
-Despite it is quite old device the community is growing and getting new members and knowledge essential to start in one
-place is what they are looking for.
+Rock Paper Scissors is a hand game originating from China, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock", "paper", and "scissors". Source: Wikipedia.
+<hr>
+If you don't have opponent that want to challange you RPS game come to help you.
+Game purpose is to entertain player in game where opponent is computer. Colourful graphics and game communications to player are improving player expirience.
+<br>
 
 - [Back to the top ☝](#menu)
 
@@ -116,17 +117,16 @@ __The live link can be found here:__ <a href="https://lucasp1vko.github.io/rock-
 <hr>
 
 > # Features
-Website contain 2 global elements that are common for all pages:
-- Navbar
-- Footer
+Game is contained within one HTML page.
+Main div container is located in center of the page holding all game areas:
+- Title.
+- Score bar.
+- Communication area.
+- Play area displaying player and computer choice.
+- Player input area - 3 buttons representing rock, paper and scissors.
+- Social media icons bar.
 
-Hero image is changing on each of subpages and size is only 60% on main page when other pages hero image is 25%.
 
-Four subpages are:
-- Specifications
-- Video
-- Gallery
-- Contact
 
 - [Back to the top ☝](#menu)
 
