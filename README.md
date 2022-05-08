@@ -330,7 +330,7 @@ Main div container is located in center of the page holding all game areas:
 <hr>
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/d58e395d795bd626d1e30983150fe4c41c9adbfa/assets/images/readmeFiles/ux/js_functions_project1.jpg" width=750px 
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/d58e395d795bd626d1e30983150fe4c41c9adbfa/assets/images/readmeFiles/ux/js_functions_project.jpg" width=750px 
     alt= code design sketch />
 </div>
 
@@ -346,11 +346,11 @@ Main div container is located in center of the page holding all game areas:
 <h3 align="center">HTML</h3>
 
 - __W3C__
-- No errors were returned when passing through the official [W3C HTML VALIDATOR](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasp1vko.github.io%2FMVHUB%2F)
+- No errors were returned when passing through the official [W3C HTML VALIDATOR](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucasp1vko.github.io%2Frock-paper-scissors-game%2F)
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/testing/w3_html_validator.png" 
-    alt= w3 html validator />
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/testing_and_bugs/w3c_html_valid_pass.png" 
+    alt= w3c html validator />
 </div>
 
 <br>
@@ -368,12 +368,13 @@ Main div container is located in center of the page holding all game areas:
 validator
 
 <div align="center">
-  <p>
-    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasp1vko.github.io%2FMVHUB%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-      <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
-        alt="Valid CSS!" />
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucasp1vko.github.io%2Frock-paper-scissors-game%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
     </a>
-  </p>
+</p>
 </div>
 
 <br>
@@ -387,42 +388,22 @@ validator
 <h3 align="center">PERFORMANCE</h3>
 
 - __Lighthouse__
-- All pages grade near 100 points and no errors found in tests in Lighthouse
-- Galery page tested 78 points because of graphics size but I decided to leave them to provide best image quality in gallery
+- All grade near 100 points and no errors found in tests in Lighthouse
 - Results:
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_index.png" 
-    alt= Lighthouse test results for page index />
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/testing_and_bugs/lighthouse_fixed.png" 
+    alt= Lighthouse test results />
 </div>
 
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_info.png" 
-    alt= Lighthouse test results for page specs />
-</div>
-
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_video.png" 
-    alt= Lighthouse test results for page video />
-</div>
-
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_gallery.png" 
-    alt= Lighthouse test results for page gallery />
-</div>
-
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/lighthouse_test_contact.png" 
-    alt= Lighthouse test results for page contact />
-</div>
 
 - __GTMetrics__
-- GTMetrix tests graded A for all pages
+- GTMetrix tests graded A
 - Results:
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/15bb0ccc2a5e299f210d00c4e7964dff15c9d16d/assets/readme_files/testing/gtmetrix_test_all.png" 
-    alt= GTMetrix test results combined />
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/testing_and_bugs/gtmetrix_pass.png" 
+    alt= GTMetrix test results />
 </div>
 
 <a name="testingresponsiveness"></a>
@@ -433,7 +414,7 @@ validator
 - Example:
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/testing/responsivness_test.gif" 
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/d7dd654c88270a2faf3152dbaad2f4c14afbd5b5/assets/images/readmeFiles/mockupanimated.gif" 
     alt= Responsivness example />
 </div>
 
