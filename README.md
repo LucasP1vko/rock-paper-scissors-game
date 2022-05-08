@@ -558,9 +558,7 @@ validator
 - Camp nou stadion image used as background image got from [Freeimages](https://www.freeimages.com/photo/the-nou-camp-1225210).
 - Fonts used in creating this website comes from[Google Fonts](https://fonts.google.com/).
 - Icons used in README file comes from [Unicode Emoji Charts](https://unicode.org/emoji/charts/full-emoji-list.html#1f30d)
-- The artwork used on top of style.css file was generated in [ASCII art generator](https://www.ascii-art-generator.org/). 
 - Restart game Button was generated in [CSS Button Generator](https://cssbuttongenerator.com/).
-- The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/)
 
 <br>
 
