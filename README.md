@@ -230,13 +230,27 @@ Main div container is located in center of the page holding all game areas:
 
 - __CSS:__
 
-- CSS is structured with the same system as HTML with common elements being styled on the top part but one more common element Media Querries can be found on very bottom below sub pages styling.
-- Comments for specific sections were extended to window width to provide easier navigation.
-- Also style areas like Common Elements, Subpages Elements and Media Querries are more 'bold' to make them easier to identify.
-- Below you can find animated overview of navigation in CSS code:
+- CSS is structured with the same system as HTML with styling elements in the same order they appearing on page
+- Comments are added to each element promptly
+- Media queries section appearing on the very bottom after all styles
+- Below you can find image of example parts of CSS code:
+<br>
+
+- __CSS example image:__
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/structure_css_navigation_presentation.gif" width=750px 
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/08895c9ae25386a04bd0554b3e9a285e8746fe58/assets/images/readmeFiles/code_structure/css_structure.png" width=750px 
+    alt= CSS code structure presentation />
+</div>
+
+<br>
+
+- __CSS media queries example image:__
+
+<br>
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/08895c9ae25386a04bd0554b3e9a285e8746fe58/assets/images/readmeFiles/code_structure/css_structure_media.png" width=750px 
     alt= CSS code structure presentation />
 </div>
 
@@ -249,11 +263,12 @@ Main div container is located in center of the page holding all game areas:
 <a name="codeassets"></a>
 
 - __ASSETS STRUCTURE__
-- Files are segregated by area they are used in: general images, gallery, favicon and readme.
+- Files are segregated by area they are used in: general images, favicon and readme.
+- CSS and JS files are separated in their own folders
 - Below you can find snapshot of file structure:
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/structure_files.png" width=750px 
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/08895c9ae25386a04bd0554b3e9a285e8746fe58/assets/images/readmeFiles/code_structure/assets_structure.png" width=750px 
     alt= ASSETS structure presentation />
 </div>
 
