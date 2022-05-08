@@ -18,10 +18,13 @@
 
 <body>
 
+    <!-- MAIN CONTANER HOLDING ALL GAME AREAS -->
     <div class="game_container">
     
+        <!-- TITLE BAR -->
         <div class="title_bar">Rock Paper Scissors</div>
     
+        <!-- SCORE BAR -->
         <div class="score_board">
             <div class="user_name">
                 <span id="user_name">Player</span>
@@ -35,31 +38,39 @@
                    CPU
             </div>
         </div>
-        
+
+        <!-- COMMUNICATION AREA         -->
         <div class="winner_result" id="winner"><div>Press rock, paper or scissors to start.</div>
             <div>Get 2 points to win the game.</div></div>
-        
+
+
+        <!-- PLAY DISPLAY -->
         <div class="game_field">
+            <!-- FOR PLAYER -->
             <div class="player_choice_image" id="user_image">
                 <button class="btn_user" id="btn_play1" aria-label="player choice display"></button>
             </div>
             <div class="versus_column">vs</div>
+            <!-- FOR COMPUTER -->
             <div class="cpu_choice_image" id="cpu_image">
                 <button class="btn_cpu" id="btn_play2" aria-label="computer choice display"></button>
             </div>
         </div>
         
+        <!-- GAME CONTROLS / BUTTONS -->
         <div class="option_buttons">
             <button class="btn_rock btn_choice"  onclick="displayUserChoice('rock')" aria-label="user choice input rock"></button>
             <button class="btn_paper btn_choice"  onclick="displayUserChoice('paper')" aria-label="user choice input paper"></button>
             <button class="btn_scissors btn_choice"  onclick="displayUserChoice('scissors')" aria-label="user choice input scissors"></button>
         </div>
 
+        <!-- RESTART GAME BUTTON -->
         <div class="display_none" id="restart_game">
             <button class="restart_button"  onclick="runGame()">Restart Game</button>
 
         </div>
         
+        <!-- SOCIAL MEDIA BAR -->
         <div class="social_footer">
             <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
