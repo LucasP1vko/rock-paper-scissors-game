@@ -427,57 +427,76 @@ validator
 
 <h3 align="center">Fixed Bugs:</h3>
 
-- __Youtube embeding__
-- PROBLEM: While testing in W3C Markup validation service error about iframes code generated in http://youtubeembedcode.com/en/ for embeding youtube videos appeared, stating some atributes like: width height and type should not be used with this elements in HTML markup.
-- SOLUTION: Removing atributes from html file and including them in CSS file.
-- Code added:
+- __Implementation timed buttons disabling__
 
-``` r
-.flex-container iframe {
-  width: 500px;
-  height: 50vh;
-  border: 0;
-  margin: 0;
-}
-```
+<br>
+
+- PROBLEM: (JS) While implementing timer counting time for buttons disabling between rounds ran into issue that timer was working sometimes and sometimes not. Apparently problem source was recognized as id on buttons was used on few elements which is not allowed and caused issues.
+<br>
+- SOLUTION: DocumentGetElementById for id of buttons changed to target parent element querrySelector and targeting child buttons inside of it.
 
 <hr>
 
-- __Graphics size__
+- __Missing and extra semicolons__
 
 <br>
 
-- PROBLEM: GTMetrix reports results show images size is slowing down the page loading time.
+- PROBLEM: (JS) Syntax checker on ExtendsClass JavaScript validator returned error about 5 missing semicolons and 2 unnecessery ones.
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/bugs/test5contactbeforefix.png" 
-    alt= Bug image size before />
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/89b3d0f25926e1689ce3dc1323d152f7767854e3/assets/images/readmeFiles/testing_and_bugs/js_validator_errors.png" 
+    alt= Bugs JS syntax />
 </div>
 <br>
 
-- Solution: Used https://tinypng.com/ to compress images and reduce its size fixing the issue.
+- Solution: Removed and added semicolons where required resolved problem.
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/bugs/test5contactafterfix.png" 
-    alt= Bug image size after />
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/89b3d0f25926e1689ce3dc1323d152f7767854e3/assets/images/readmeFiles/testing_and_bugs/js_syntax_passed.png" 
+    alt= Bugs JS syntax fixed />
 </div>
 
 <hr>
 
-- __Section without headers warnings__
+- __Incorrect values errors__
 
 <br>
 
-- PROBLEM: Hero image containing only graphic content was added as section and W3C Validator displayed error about no headers beeing added in this section.
+- PROBLEM: (CSS) W3C CSS Validator reports results show value errors for align-items and vertical-align.
+<div align="center">
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/89b3d0f25926e1689ce3dc1323d152f7767854e3/assets/images/readmeFiles/testing_and_bugs/css_valid_errors_found.png" 
+    alt= Bugs W3C />
+</div>
+<br>
+
+- Solution: Adjusted values and got problem fixed.
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/89b3d0f25926e1689ce3dc1323d152f7767854e3/assets/images/readmeFiles/testing_and_bugs/css_valid_errors_fixed.png" 
+    alt= Bugs W3C fixed />
+</div>
+
+<hr>
+
+- __Missing aria labels__
+
+<br>
+
+- PROBLEM: (HTML) Lighthouse showing error that buttons and links do not have accessible names.
 
 <br>
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/d490f4155dfc847172d20342f4883afece943d36/assets/readme_files/bugs/sections_replaced_with_divs.png" 
-    alt= Bug section have no headers />
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/89b3d0f25926e1689ce3dc1323d152f7767854e3/assets/images/readmeFiles/testing_and_bugs/lighthouse_fail1.png" 
+    alt= Bug accessibility />
+</div>
+<br>
+<div align="center">
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/89b3d0f25926e1689ce3dc1323d152f7767854e3/assets/images/readmeFiles/testing_and_bugs/lighthouse_fail2.png" 
+    alt= Bug aria labels missing />
 </div>
 <br>
 
--SOLUTION: Replacing section with div solved the problem.
+-SOLUTION: Adding aria labels to all elements solved problem.
 
 <br>
 <hr>
@@ -487,11 +506,11 @@ validator
 
 <h3 align="center">Unfixed Bugs:</h3>
 
-- __Images size in Gallery page__
+- __No unfixed bugs that I am aware of__
+
+<hr>
 
 <br>
-
-- The only unfixed bug that I am aware of is image size for gallery page but I left them uncompressed to provide high quality images for gallery so users can enjoy small details and get familiar with different sections of MV8800 interface.
 
 - [Back to the top ☝](#menu)
 
@@ -501,8 +520,19 @@ validator
 
 ## Credits
 
-- Biggest support to my work on this website was [Code Institute](https://codeinstitute.net/ie/) where I learned how to use HTML and CSS.
+- Biggest support to my work on this website was [Code Institute](https://codeinstitute.net/ie/) where I learned how to use HTML, CSS and JS.
 - Also content from [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) was great support.
+- Thanks to Alan from CI tutor support for help with timer bug resolving.
+- Thanks to Jack Wachira for help with planning my project.
+- Thanks to my son Anthony for user testing.
+- Thanks to Kasia Bogucka - my cohort facilitator for supporting me and giving me confidence boost during building this project.
+<br>
+<div align="center">
+__THANK YOU ALL!__
+
+</div>
+<br>
+
 
 <br>
 
