@@ -519,9 +519,9 @@ validator
 - Biggest support to my work on this website was [Code Institute](https://codeinstitute.net/ie/) where I learned how to use HTML, CSS and JS.
 - Also content from [Stack Overflow](https://stackoverflow.com/) and [W3schools](https://www.w3schools.com/) was great support.
 - Thanks to Alan from CI tutor support for help with timer bug resolving.
-- Thanks to Jack Wachira for help with planning my project.
+- Thanks to my mentor Jack W. for help with planning my project.
 - Thanks to my son Anthony for user testing.
-- Thanks to Kasia Bogucka - my cohort facilitator for supporting me and giving me confidence boost during building this project.
+- Thanks to Kasia B. - my cohort facilitator for supporting me and giving me confidence boost during building this project.
 <br>
 <div align="center">
 <b>THANK YOU ALL!😃👍</b>
