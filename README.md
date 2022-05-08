@@ -192,7 +192,7 @@ Main div container is located in center of the page holding all game areas:
 
 <hr>
 
-<h3 align="centre">NUMBER OF ROUND INPUT</h3>
+<h3 align="centre">NUMBER OF ROUNDS TO WIN INPUT</h3>
 
 - More customizations to game is planned as well to create more gameplay varieties. 
 
@@ -212,12 +212,11 @@ Main div container is located in center of the page holding all game areas:
 - __HTML:__
 
 - code was structured with every element apearing in code in the same order as on the page:
-- first ther is some kind of template that is common to all pages with sticky navbar on the top and footer on the bottom there is also mobile navbar that is not visible unless screen width is decreased and media querries changing its display status.
-- Comments are dividing main sections and were extended to screen width to make easier navigation within code.
+- Comments are added describing each element promptly
 - Below you can find image of collapsed main section showing rough structure of html code: 
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/structure_%20html_index.png" width=750px 
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/code_structure/html_structure.png" width=750px 
     alt= HTML code structure presentation />
 </div>
 
