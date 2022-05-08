@@ -490,11 +490,7 @@ validator
     alt= Bug accessibility />
 </div>
 <br>
-<div align="center">
-  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/89b3d0f25926e1689ce3dc1323d152f7767854e3/assets/images/readmeFiles/testing_and_bugs/lighthouse_fail2.png" 
-    alt= Bug aria labels missing />
-</div>
-<br>
+
 
 -SOLUTION: Adding aria labels to all elements solved problem.
 
@@ -541,14 +537,8 @@ validator
 <hr>
 
 ### Content
-
-- Description of device for the HOME page and Specifications used on SPECS page comes from official [Roland](https://www.roland.com/global/products/mv-8800/specifications/) website.
-- Embeded videos on VIDEO page comes from youtube [The Midi Maniac](https://www.youtube.com/c/RogerTheMIDIManiac) channel.
-- Instructions on how to implement CSS gallery on the Gallery page was taken from [Pure CSS Lightbox & Image Reflection Effect](https://www.youtube.com/watch?v=uAoB_zTLQo8) from PureCSS channel on YouTube.
-- Instructions on how to implement animated sliders on the navbar links was taken from [CSS Custom Checkbox UI Design | Html CSS](https://www.youtube.com/watch?v=IoROPvDgxkc&list=PLdCHlqeB2-azqgNRfkqmUrVwdqG_WWzGM&index=26) from Online Tutorials channel on YouTube.
-- Instructions on how to implement parallax effect on the hero images was taken from [Pure CSS Parallax Scrolling | No JavaScript | HTML & CSS](https://www.youtube.com/watch?v=6CQ7DYni7Bg) from Codegrid channel on YouTube.
+- Tutorial [3 ways to code Rock Paper Scissors in JavaScript](https://www.youtube.com/watch?v=RwFeg0cEZvQ) from Code with Ania Kubów you tube channel was used to understand how the code for Rock Paper Scissors game works. 
 - Code used for glassmorph effect on footer was generated in Hype4 Academy [Glassmorphizm Generator](https://hype4.academy/tools/glassmorphism-generator).
-- Embeded video links on the VIDEO page and HOME page was generated in [YouTube embed code generator](http://youtubeembedcode.com/en/).
 - Idea for header for my readme file was taken from github user [Choojs](https://github.com/choojs/choo#readme) readme.
 - Badges used in Header of Readme file were created in [Shields](https://shields.io/) Quality metadata badges for open source projects.
 - Baner and all gif files used in readme were created in [Vista Create](https://create.vista.com/home/)
@@ -564,16 +554,12 @@ validator
 
 ### Media
 
-- Colour palette was extracted from image and generated on [Coolors](https://coolors.co/) the super fast color palettes generator.
-- All photos used on the HOME and GALLERY page were taken by [LucasP1vko(Myself)](https://github.com/LucasP1vko/) usind [Nikon D90]() camera.
-- The images editing was done in [Adobe Photoshop Express](https://www.adobe.com/ie/products/photoshop-express.html).
-- The images compression was done in [TinyPng](https://tinypng.com/)
+- Graphics for rock paper and scissors and player and cpu icons got from [ClipartMax](https://www.clipartmax.com/middle/m2H7K9d3Z5i8H7K9_cpu-icon-circle/).
+- Camp nou stadion image used as background image got from [Freeimages](https://www.freeimages.com/photo/the-nou-camp-1225210).
 - Fonts used in creating this website comes from[Google Fonts](https://fonts.google.com/).
-- Wordclouds used to create hero images on each page was generated in [Free onlin wordclouds generator](https://www.wordclouds.com/)
-- Synonyms for word clouds comes from [Thesaurus](https://www.thesaurus.com/) synonyms and anthonyms library.
 - Icons used in README file comes from [Unicode Emoji Charts](https://unicode.org/emoji/charts/full-emoji-list.html#1f30d)
 - The artwork used on top of style.css file was generated in [ASCII art generator](https://www.ascii-art-generator.org/). 
-- Button used in contact form on CONTACT page was generated in [CSS Button Generator](https://cssbuttongenerator.com/).
+- Restart game Button was generated in [CSS Button Generator](https://cssbuttongenerator.com/).
 - The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/)
 
 <br>
