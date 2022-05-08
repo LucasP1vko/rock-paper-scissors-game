@@ -528,7 +528,7 @@ validator
 - Thanks to Kasia Bogucka - my cohort facilitator for supporting me and giving me confidence boost during building this project.
 <br>
 <div align="center">
-__THANK YOU ALL!__
+<b>THANK YOU ALL!😃👍</b>
 
 </div>
 <br>
