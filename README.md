@@ -134,100 +134,40 @@ Main div container is located in center of the page holding all game areas:
 
 <a name="featuresexisting"></a>
 > ## Existing Features
-<h3 align="center">Common elements:</h3>
 <hr>
-<h4 align="center">Navigation Bar</h4>
+<h4 align="center">TITLE AREA</h4>
 
-- Featured on all pages, the full responsive navigation bar includes links to the Home page, Specifications, Video,
-Gallery and Contact page and is identical in each page to allow for easy navigation.
-- This section will allow the user to easily navigate from page to page across all devices without having to revert back
-to the previous page via the ‘back’ button.
-- Navbar is strongly connected to page music content. In desktop size navigation links represents mixer volume sliders
-and color of highlighted links is <code>#51d720</code> and it is tribute to the color of original MV-8000 screen that
-was changed later on to new rgb one.
-- Below you can find navbar in 3 versions for each size of screen: desktop, laptop and mobile.
-
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar.gif" width=250px height=250px
-    alt=Nav Bar Desktop size animated />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_tablet.gif" width=250px
-    height=250px alt=Nav Bar Tablet size animated />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/navbar_mobile.gif" width=250px
-    height=250px alt=Nav Bar Mobile size animated />
-</div>
+![Title](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/2ab518591c424cc45c4f6d026c919441bf6155b9/assets/images/readmeFiles/elements%20RPS/1title.png)
 
 <hr>
 
-<h4 align="center">Footer</h4>
+<h4 align="center">SCORE AREA</h4>
 
-- The footer section includes links to the relevant social media sites for MV-HUB. The links will open to a new tab to
-allow easy navigation for the user.
-- Footer contain 4 blocks: logo, copyrights, author informations and social links.
-- The footer is valuable to the user as it encourages them to keep connected via social media and make contact informations easy to find.
-- Below you can find footer in 3 versions for each size of screen: desktop, laptop and mobile.
-
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_desktop.png" width=750px 
-    alt=Footer Desktop size />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_tablet640.png" width=375px alt=Footer Tablet size />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/footer_mobile640.png" width=375px alt=Footer Mobile size />
-</div>
+![Score](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/2ab518591c424cc45c4f6d026c919441bf6155b9/assets/images/readmeFiles/elements%20RPS/2score.png)
 
 <hr>
 
-> **Elements for individual pages:**
-<hr>
+<h4 align="center">COMMUNICATION AREA</h4>
 
-<h4 align="center">Home Page</h4>
-
-- __Landing page image__
-
-- The landing includes a MV8800 Production Studio photograph with text overlay inspiring to use this page to join
-community. It is motto for the website.
-- This section takes only 70% of the screen revealing further content inviting user to scrool down. Parralax effect on
-scroll makes nice feeling following sections like floating up makes user to scroll with pleasure.
-
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/hero_animation.gif" 
-    alt=Landing Page />
-</div>
+![Communications](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/2ab518591c424cc45c4f6d026c919441bf6155b9/assets/images/readmeFiles/elements%20RPS/3communication.png)
 
 <hr>
 
-<h4 align="center">Photo Page</h4>
+<h4 align="center">GAME/PLAY DISPLAY AREA</h4>
 
-- __Gallery__
-
-- The gallery will provide the user with overview images to see what the machine look like and closer look at different sections of interface.
-- This section is valuable to the user as they will be able to easily identify different sections of the device and also get familiar with general visual presentation of the device.
-- Images can be enlarged to see smaller details of interface.
-- Below you can find gallery in 2 versions for each size of screen: desktop, laptop and mobile.
-
-
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/gallery_desktop.png" width=750px 
-    alt=Gallery desktop size />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/gallery_mobile.gif" height=500px alt=Gallery tablet and mobile size animated />
-</div>
+![Play Area](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/2ab518591c424cc45c4f6d026c919441bf6155b9/assets/images/readmeFiles/elements%20RPS/4playarea.png)
 
 <hr>
 
-<h4 align="center">Contact Page</h4>
+<h4 align="center">GAME CONTROLS AREA</h4>
 
-- __Contact form__
+![Controls](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/2ab518591c424cc45c4f6d026c919441bf6155b9/assets/images/readmeFiles/elements%20RPS/5buttons.png)
 
-- This page will allow the user to get in touch with MV-HUB. 
-- MV-HUB mission is to help users with knowledge and also with any individal problems, questions, opinions or ideas from the community. 
-- The user will be able to specify what type of contact they request so it will be easier to filter it and get more specified answers. 
-- The user will be
-asked to submit their full name and email address to get informations in return.
-- Below you can find contact form in 3 versions for each size of screen: desktop, laptop and mobile.
+<hr>
 
+<h4 align="center">SOCIAL MEDIA BAR</h4>
 
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/contact_anim.gif" width=750px 
-    alt=Contact responsive animated />
-</div>
+![Controls](https://github.com/LucasP1vko/rock-paper-scissors-game/blob/2ab518591c424cc45c4f6d026c919441bf6155b9/assets/images/readmeFiles/elements%20RPS/6social.png)
 
 <hr>
 
