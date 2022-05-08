@@ -70,6 +70,7 @@ CLASSIC GAME THAT ENTERTAIN EVERYONE
   * [JS](#javascriptstructure)
   * [ASSETS](#codeassets)
 - [UX](#ux)
+- [JS code development](#js-code-development)
 - [Testing](#testing)
   * [HTML](#testinghtml)
   * [CSS](#testingcss)
@@ -300,9 +301,40 @@ Main div container is located in center of the page holding all game areas:
 - Below you can find Sketches from early design of User Interface and Wireframe.
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/ux/game_ui_project.jpg" width=375px 
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/ux/game_ui_project.jpg" width=750px 
     alt= User Interface design sketch />
 </div>
+
+- [Back to the top ☝](#menu)
+
+<hr>
+
+> # JS code development.
+<hr>
+
+- Creating RPS - Rock Paper Scissors game code started with writing down desired essential core functions.
+- Below you can find functions planning from early design of code.
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/d58e395d795bd626d1e30983150fe4c41c9adbfa/assets/images/readmeFiles/ux/js_functions_project3.jpg" width=750px 
+    alt= code design sketch />
+</div>
+
+<hr>
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/d58e395d795bd626d1e30983150fe4c41c9adbfa/assets/images/readmeFiles/ux/js_functions_project2.jpg" width=750px 
+    alt= code design sketch />
+</div>
+
+<hr>
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/d58e395d795bd626d1e30983150fe4c41c9adbfa/assets/images/readmeFiles/ux/js_functions_project1.jpg" width=750px 
+    alt= code design sketch />
+</div>
+
+<hr>
 
 - [Back to the top ☝](#menu)
 
