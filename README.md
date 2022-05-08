@@ -180,28 +180,21 @@ Main div container is located in center of the page holding all game areas:
 > ## Features Left to Implement
 <hr>
 
-<h3 align="centre">DOWNLOADS</h3>
+<h3 align="centre">WELCOME SCREEN / GAMES SELECTION MENU</h3>
 
-- At the moment gallery replaced planned download section and it will be very important part of the MV-HUB. It will be implemented in the future when specific resources will be available.
-
-<hr>
-
-<h3 align="centre">FORUM</h3>
-
-- Forum is another planned feature to the website it is the best solution to get community together and members to communicate and share knowledge with each other. 
+- At the moment game is starting on the screen where game is happening but in the future game is planned to be expanded to have intro screen or other style envelope (possibly bigger group of games so previous screen may be menu of games variety).
 
 <hr>
 
-<h3 align="centre">SEARCH</h3>
+<h3 align="centre">CUSTOM PLAYER NAME AND IMAGE</h3>
 
-- With increasing amount of content page will need system for filtering and easy finding desired materials. It will be easier achieved by adding searching engine than navigating in interface. So it is definatelly feature that will appear with website development.
+- This is planned to be implemented in previous game selection menu screen (LEFT TO IMPLEMENT).
 
 <hr>
 
+<h3 align="centre">NUMBER OF ROUND INPUT</h3>
 
-<h3 align="centre">RESPONSIVNESS OPTIMIZATION FOR 4K SCREENS</h3>
-
-- It was not essential at the begining because site is rather addressed for smaller devices popular in music studios but eventually will be upgraded to 4K when more content will be added
+- More customizations to game is planned as well to create more gameplay varieties. 
 
 <hr>
 
