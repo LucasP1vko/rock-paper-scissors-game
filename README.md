@@ -67,6 +67,7 @@ CLASSIC GAME THAT ENTERTAIN EVERYONE
 - [Code and assets structure.](#code)
   * [HTML](#codehtml)
   * [CSS](#codecss)
+  * [JS](#javascriptstructure)
   * [ASSETS](#codeassets)
 - [UX](#ux)
 - [Testing](#testing)
@@ -260,6 +261,21 @@ Main div container is located in center of the page holding all game areas:
 
 <hr>
 
+<a name="javascriptstructure"></a>
+
+- __JAVASCRIPT CODE STRUCTURE__
+
+- Below you can find flowchart of JavaScript code:
+
+<div align="center">
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/code_structure/flowchart2.png" width=750px 
+    alt= javascript structure presentation />
+</div>
+
+- [Back to the top ☝](#menu)
+
+<hr>
+
 <a name="codeassets"></a>
 
 - __ASSETS STRUCTURE__
@@ -279,21 +295,13 @@ Main div container is located in center of the page holding all game areas:
 > # UX.
 <hr>
 
-- Creating MV-HUB started with basic sketch of idea based on resources that in my opinion was essential for users: video tutorials, specifications, downloads of configuration files and gallery. 
-- Also channel for communication was essential part for this project to exist as it is focused on quite small community that need to building supporting environment within.
-- Pictures used in this project were taken used Nikon N90 by myself.
-- Color pallette was generated in <a href="https://coolors.co/">COOLORS</a> and was based on colors used on real device interface to make it strongly connected to it. Below you can find animation showing process of creating color pallette:
-<div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/COLORS640x250.gif" alt= Color pallette creating in COOLORS />
-</div>
-
+- Creating RPS - Rock Paper Scissors game started with basic sketch of elements that in my opinion was essential for users: title, score, communication display, game choices display, control buttons for user choice input and social media icons. 
+- Background image is stadium representing challange going on in the game.
 - Below you can find Sketches from early design of User Interface and Wireframe.
 
 <div align="center">
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/design_sketch_002_edited.jpg" width=375px 
+  <img src="https://github.com/LucasP1vko/rock-paper-scissors-game/blob/main/assets/images/readmeFiles/ux/game_ui_project.jpg" width=375px 
     alt= User Interface design sketch />
-  <img src="https://github.com/LucasP1vko/MVHUB/blob/main/assets/readme_files/design_sketch_001_edited.jpg" width=375px 
-    alt= Wireframe design sketch />
 </div>
 
 - [Back to the top ☝](#menu)
